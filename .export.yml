@@ -27,7 +27,7 @@ export: |
                 links "xinput"
 
             filter "system:linux"
-                links "x11"
+                links "X11"
             filter {}
         ]]
 ...
