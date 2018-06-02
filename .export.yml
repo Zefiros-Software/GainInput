@@ -11,6 +11,9 @@ export: |
         
         filter "system:not ios"
             removefiles "lib/source/**Ios.mm"
+        
+        filter "system:not macosx"
+            removefiles "lib/source/**Mac.mm"
         filter {}
 
         zpm.export [[
