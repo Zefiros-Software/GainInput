@@ -7,8 +7,10 @@ export: |
 
         kind "StaticLib"
 
+        src "lib/source/**.ccp"
+
         zpm.export [[
-            includedirs "include"
+            includedirs "lib/include"
 
             cppdialect "C++11"
         ]]

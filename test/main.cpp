@@ -27,7 +27,7 @@
 
 enum Button
 {
-	ButtonConfirm
+    ButtonConfirm
 };
 
 int main()
