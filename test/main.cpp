@@ -34,7 +34,6 @@ int main()
 {
 
     gainput::InputManager manager;
-    manager.SetDisplaySize(displayWidth, displayHeight);
     const gainput::DeviceId keyboardId = manager.CreateDevice<gainput::InputDeviceKeyboard>();
     const gainput::DeviceId mouseId = manager.CreateDevice<gainput::InputDeviceMouse>();
     const gainput::DeviceId padId = manager.CreateDevice<gainput::InputDevicePad>();
