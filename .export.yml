@@ -13,5 +13,9 @@ export: |
             includedirs "lib/include"
 
             cppdialect "C++11"
+
+            filter "system:windows"
+                links "xinput"
+            filter {}
         ]]
 ...
