@@ -19,7 +19,7 @@ export: |
             filter "system:windows"
                 links "xinput"
             filter "system:linux"
-                removefiles "lib/source/gaininput/**Ios.mm"
+                removefiles "lib/source/**Ios.mm"
             filter {}
         ]]
 ...
