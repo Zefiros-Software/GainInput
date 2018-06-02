@@ -44,16 +44,4 @@ int main()
     map.MapBool(ButtonConfirm, mouseId, gainput::MouseButtonLeft);
     map.MapBool(ButtonConfirm, padId, gainput::PadButtonA);
     map.MapBool(ButtonConfirm, touchId, gainput::Touch0Down);
-
-    while (running)
-    {
-        manager.Update();
-
-        // May need some platform-specific message handling here
-
-        if (map.GetBoolWasDown(ButtonConfirm))
-        {
-            // Confirmed!
-        }
-    }
 }
