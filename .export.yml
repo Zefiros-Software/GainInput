@@ -14,6 +14,8 @@ export: |
 
             cppdialect "C++11"
 
+            defines "GAINPUT_LIB_BUILD"
+
             filter "system:windows"
                 links "xinput"
             filter "system:linux"
