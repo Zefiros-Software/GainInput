@@ -24,9 +24,9 @@
 -- @endcond
 -- ]]
 
-workspace "Date"
+workspace "GainInput"
    
-    zefiros.testDefinition("Date")
+    zefiros.testDefinition("GainInput")
 
-    project "Date"
-        zpm.uses "Zefiros-Software/Date"
+    project "GainInput"
+        zpm.uses "Zefiros-Software/GainInput"
