@@ -8,6 +8,10 @@ export: |
         kind "StaticLib"
 
         files "lib/source/**"
+        
+        filter "system:not ios"
+            removefiles "lib/source/**Ios.mm"
+        filter {}
 
         zpm.export [[
             includedirs "lib/include"
@@ -18,8 +22,6 @@ export: |
 
             filter "system:windows"
                 links "xinput"
-            filter "system:linux"
-                removefiles "lib/source/**Ios.mm"
             filter {}
         ]]
 ...
