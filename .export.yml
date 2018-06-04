@@ -34,7 +34,7 @@ export: |
                     "IOKit.framework",
                     "CoreFoundation.framework",
                     "GameController.framework",
-                    "CoreGraphics.framework"
+                    "CoreGraphics.framework",
                     "Cocoa.framework"
                 }
             filter {}
