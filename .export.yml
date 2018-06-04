@@ -33,7 +33,8 @@ export: |
                 links {
                     "IOKit.framework",
                     "CoreFoundation.framework",
-                    "GameController.framework"
+                    "GameController.framework",
+                    "CoreGraphics.framework"
                 }
             filter {}
         ]]
