@@ -35,6 +35,7 @@ export: |
                     "CoreFoundation.framework",
                     "GameController.framework",
                     "CoreGraphics.framework"
+                    "Cocoa.framework"
                 }
             filter {}
         ]]
