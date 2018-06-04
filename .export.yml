@@ -30,7 +30,11 @@ export: |
                 links "X11"
 
             filter "system:macosx"
-                links "CoreFoundation.framework"
+                links {
+                    "IOKit.framework",
+                    "CoreFoundation.framework",
+                    "GameController.framework"
+                }
             filter {}
         ]]
 ...
