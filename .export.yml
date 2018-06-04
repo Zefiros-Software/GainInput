@@ -28,6 +28,9 @@ export: |
 
             filter "system:linux"
                 links "X11"
+
+            filter "system:macosx"
+                links "CoreFoundation.framework"
             filter {}
         ]]
 ...
